@@ -6,7 +6,7 @@
 3. [Set up the Astra DB connection details](#3-connect-to-astra-db)
 4. [Load data](#4-load-data)
 5. [Building the service layer](#5-building-the-service-layer)
-6. [Building the Web UI][#6-building-the-web-ui)
+6. [Building the Web UI](#6-building-the-web-ui)
 
 ## Prerequisites:
  - Python 3.10 or 3.11
