@@ -79,6 +79,11 @@ pip install astrapy
 pip install poetry
 ```
 
+Or, with your agent:
+
+_Please install the poetry and astrapy==2.2.1
+Python packages for me._
+
 _Note: Your AI coding agent will decide whether or not to use Poetry for dependency management. If you prefer, you can mention it in your prompt for creating the design doc ([step 5b](#5b-prompt-for-generating-the-design-doc-and-openapi-spec))._
 
 Be sure to copy the `.env.example` file to `.env` and update the values in the `.env` file with your Astra DB instance.
@@ -86,6 +91,10 @@ Be sure to copy the `.env.example` file to `.env` and update the values in the `
 ```bash
 cp .env.example .env
 ```
+
+Or, with your agent:
+
+_Please copy the .env.example file to .env and open it so that I can update the credential values._
 
 | Variable | Description |
 |----------|-------------|
@@ -103,6 +112,11 @@ The [astronauts.csv](data/astronauts.csv) is inside the `data/` directory, and c
 python3 loaders/load_astronauts.py
 ```
 
+Or, with your agent:
+
+_Please run the load_astronauts.py data loader
+for me._
+
 ### 4b. Load the astronauts_by_mission table
 
 The [astronauts_by_mission.csv](data/astronauts_by_mission.csv) is inside the `data/` directory, and can be loaded with the following command:
@@ -110,6 +124,10 @@ The [astronauts_by_mission.csv](data/astronauts_by_mission.csv) is inside the `d
 ```
 python3 loaders/load_astronauts_by_mission.py
 ```
+
+Or, with your agent:
+
+_Please run the load_astronauts_by_mission.py data loader for me._
 
 ## 5. Building the service layer
 To build the application service layer, we are going to use an approach called "Spec Coding." For this to work properly, we are going to need to use an IDE with an AI coding agent, like [IBM Bob](https://bob.ibm.com/), Claude Code, or Cursor.
@@ -129,6 +147,10 @@ _Read the requirements.md document. From those requirements:_
 
 ### 5c. Prompt for generating the TODO list
 _Read the requirements.md, design.md, and OpenAPI.yaml. From those requirements create a todo.md file that breaks down the tasks required to complete the project. Each of these tasks should be able to be marked as done when complete._
+
+### 5d. Prompt for generating the code ###
+ - Switch your IDE to "code" mode.
+ - Open the `todo.md` file, and talk your agent through following each task (or group).
 
 ## 6. Building the Web UI
 _*Bonus Step*_
