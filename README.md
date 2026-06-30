@@ -70,7 +70,7 @@ _Note: These table definitions can also be found in the `data/astronaut_schema.c
 
 ## 3. Connect to Astra DB
 
-For these next exercise steps, be sure to `cd` back into this project's (`kv-be-python-fastapi-dataapi-table`) directiory.
+For these next exercise steps, be sure to `cd` back into this project's (`spec_coding_astronaut_app`) directiory.
 
 If you haven't already done so, install `astrapy` and `poetry`:
 
