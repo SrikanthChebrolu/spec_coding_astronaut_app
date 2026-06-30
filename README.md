@@ -34,7 +34,6 @@ Follow this [guide](https://docs.datastax.com/en/astra-db-serverless/databases/c
 
  - At the next screen, be sure to click the **"Generate Token"** button, copy your new token, and paste it somewhere safe (for now).
  - Once the database is created, you will also need to copy the `API_ENDPOINT` value from the very top of the screen.
- - From the "three dots" menu on the right side of the screen (by "Region"), select "Download SCB" and save the file locally.
  
 ### 1c. Create your Astra DB keyspace
 
